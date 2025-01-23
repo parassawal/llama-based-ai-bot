@@ -1,86 +1,71 @@
-Project Title
+# 🌐 Project Title
 
-A concise description of your project. For example:
+A concise 💬 description of your 🔧 project. For example:
 
-Ollama is a web-based application that enables users to perform specific tasks seamlessly, designed with a focus on user experience and functionality.
+**Ollama** is a 🛠️ web-based application that enables 👤 users to perform specific tasks seamlessly, designed with a focus on 🎨 user experience and 🎩 functionality.
 
-Features
+---
 
-Main Application:
+## 🏆 Features
 
-The core functionality resides in app.py, which handles the application logic.
+- **Main Application**: 
+  - The core 🔧 functionality resides in `app.py`, which handles the 🔐 application logic.
 
-Templates:
+- **🔖 Templates**:
+  - Located in the `templates` folder, these 🔒 HTML files define the 🕸️ user interface.
 
-Located in the templates folder, these HTML files define the user interface.
+- **🗃️ Static Assets**:
+  - 🖌️ CSS, 🔦 JavaScript, and 🖼️ images are stored in the `static` folder to ensure a clean separation of 🎨 design and 🔧 functionality.
 
-Static Assets:
+---
 
-CSS, JavaScript, and images are stored in the static folder to ensure a clean separation of design and functionality.
+## 🔄 Technologies Used
 
-Technologies Used
+- **Backend**: 🐍 Python (🏊 Flask or other framework, if applicable)
+- **Frontend**: 🔖 HTML, 🖌️ CSS, 🔦 JavaScript
+- **Additional Tools**: Specify any 🧰 libraries or 🛠️ tools, e.g., Bootstrap, jQuery
 
-Backend: Python (Flask or other framework, if applicable)
+---
 
-Frontend: HTML, CSS, JavaScript
+## 🔧 Setup Instructions
 
-Additional Tools: Specify any libraries or tools, e.g., Bootstrap, jQuery
+1. 🔀 Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
+   ```
 
-Setup Instructions
+2. Navigate to the 🏰 project directory:
+   ```bash
+   cd ollama
+   ```
 
-Clone the repository:
+3. Install required 🔎 dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-git clone https://github.com/yourusername/your-repo-name.git
+4. Run the 🔐 application:
+   ```bash
+   python app.py
+   ```
 
-Navigate to the project directory:
+5. Access the 🔐 application in your 🔍 browser at:
+   ```
+   http://localhost:5000
+   ```
 
-cd ollama
+---
 
-Install required dependencies:
+## 🔃 File Structure
 
-pip install -r requirements.txt
-
-Run the application:
-
-python app.py
-
-Access the application in your browser at:
-
-http://localhost:5000
-
-File Structure
-
+```
 ollama/
 |
-|-- app.py          # Main application logic
-|-- static/         # Static assets (CSS, JS, images)
-|-- templates/      # HTML templates
+|-- app.py          # Main 🔧 application logic
+|-- static/         # Static 🖌️ assets (CSS, JS, 🖼️ images)
+|-- templates/      # HTML 🔖 templates
+```
 
-How to Contribute
+---
 
-Fork the repository.
-
-Create a new branch:
-
-git checkout -b feature-name
-
-Commit your changes:
-
-git commit -m "Add your message"
-
-Push to the branch:
-
-git push origin feature-name
-
-Submit a pull request.
-
-Contact
-
-For questions or support, please contact:
-
-Name: Paras Sawal
-
-Email: parassawal2810@gmail.com
-
-GitHub: parassawal
-
+## 🔐 How to Contribute
