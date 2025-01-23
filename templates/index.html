@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot with Llama 3.2</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Chatbot with Llama 3.2</h1>
+        
+        <form method="POST">
+            <textarea name="user_input" placeholder="Ask me anything..." required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        
+        {% if response %}
+            <div class="response">
+                <h3>Bot's Response:</h3>
+                <p>{{ response }}</p>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
