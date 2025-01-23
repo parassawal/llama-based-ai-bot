@@ -1,6 +1,5 @@
 # 🌐 Project Title
 
-A concise 💬 description of your 🔧 project. For example:
 
 **Ollama** is a 🛠️ web-based application that enables 👤 users to perform specific tasks seamlessly, designed with a focus on 🎨 user experience and 🎩 functionality.
 
@@ -68,4 +67,3 @@ ollama/
 
 ---
 
-## 🔐 How to Contribute
